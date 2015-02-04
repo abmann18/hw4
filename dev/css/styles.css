@@ -1,23 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:500,400italic,700italic,300,700,500italic,300italic,400);
 
 html{
-	min-width: 1280px;
+	min-width: 980px;
 	background-color: #3a50c1;
 	margin-left: 12%;
 	margin-top: 5%;
+	margin-right: 12%;
+	color: #fff;
+	font-family: "Roboto";
 }
 #header{
-	border: solid 1px #000;
 	height: 1.9em;
 }
 h1{
-	font-family: "Roboto";
 	font-weight: 700;
-	font-size: 1.875em;
+	font-size: 1.5em;
 	letter-spacing: 5px;
 	color: #fff;
 	float: left;
-	margin-top: 0px;
+	margin-top: -3px;
 }
 ul.nav{
 	float: right;
@@ -28,9 +29,16 @@ ul.nav{
 ul.nav li{
 	display: inline;
 	padding-left: 25px;
-	font-family: "Roboto";
 	font-weight: 400;
 	font-size: 1em;
 	letter-spacing: 3px;
-	color: #fff;
+}
+#maincontent{
+	clear: both;
+}
+h2{
+	font-weight: 300;
+	font-size: 3.75em;
+	letter-spacing: 3px;
+	
 }

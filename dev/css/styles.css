@@ -9,7 +9,7 @@ html{
 	color: #fff;
 	font-family: "Roboto";
 }
-#header{
+.header{
 	height: 1.9em;
 }
 h1{
@@ -39,29 +39,44 @@ hr{
 	background-color: #231f20;
 	border-style: none;
 	margin-left: 0;
-	margin-top: 40px;
+	margin-top: 30px;
 }
-#maincontent{
+.maincontent{
 	clear: both;
-	margin-top: 106px;
+	margin-top: 120px;
 }
 h2{
 	font-weight: 300;
 	font-size: 3.75em;
 	letter-spacing: 3px;
 }
-#description{
-	width: 600px;
+.description{
+	width: 575px;
 	font-size: 1em;
 	font-weight: 300;
-	margin-top: 106px;
+	margin-top: 120px;
 	line-height: 24px;
 }
-#footer{
+.footer{
 	width: 100%;
 	height: 80px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	background-color: #231f20;
+}
+.footerlinks{
+	min-width: 980px;
+	margin-left: 12%;
+	list-style: none;
+	padding: 0;
+	margin-top: 15px;
+}
+.sociallinks{
+	font-weight: 300;
+	font-size: 1em;
+	letter-spacing: 1px;
+	color: #cccccc;
+	float: left;
+	padding-right: 25px;
 }
